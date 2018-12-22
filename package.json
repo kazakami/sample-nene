@@ -2,7 +2,7 @@
   "name": "test-nene",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "hello.ts",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
