@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nene-engine.ts": "^0.2.0"
+    "nene-engine.ts": "^0.2.1"
   },
   "devDependencies": {
-    "ts-loader": "^5.3.1",
-    "webpack": "^4.28.0",
+    "ts-loader": "^5.3.2",
+    "webpack": "^4.28.2",
     "webpack-cli": "^3.1.2"
   }
 }
