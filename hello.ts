@@ -1,10 +1,13 @@
 import * as nene from "nene-engine.ts";
 import * as THREE from "three";
 
-class LoadScene extends nene.Scene {
+class InitialScene extends nene.Scene {
     public Init() {
         this.backgroundColor = new THREE.Color(0x6688cc);
     }
+    public DrawText() {
+        this.core.DrawText("Hello, World!", 0, 0);
+    }
 }
 
-nene.Start("init", new LoadScene());
+nene.Start("initial", new InitialScene());
