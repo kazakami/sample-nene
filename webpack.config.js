@@ -2,7 +2,8 @@ module.exports = {
     mode: 'development',
 
     entry: {
-      'hello': './hello.ts'
+      'hello': './hello.ts',
+      'units': './units.ts'
     },
 
     output: {
